@@ -1,0 +1,919 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../forms/">
+      
+      
+        <link rel="next" href="../urls/">
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.4.2">
+    
+    
+      
+        <title>views - Отчет по лабораторным работам</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.d451bc0e.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#_1" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Отчет по лабораторным работам" class="md-header__button md-logo" aria-label="Отчет по лабораторным работам" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Отчет по лабораторным работам
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              views
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Отчет по лабораторным работам" class="md-nav__button md-logo" aria-label="Отчет по лабораторным работам" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    Отчет по лабораторным работам
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_1" id="__nav_1_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Лабораторная №1
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_1">
+            <span class="md-nav__icon md-icon"></span>
+            Лабораторная №1
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../lab1/task_1/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    task 1
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../lab1/task_2/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    task 2
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../lab1/task_3/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    task 3
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../lab1/task_4/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    task 4
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../lab1/task_5/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    task 5
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../lab1/itog/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Выводы
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Лабораторная №2
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Лабораторная №2
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../models/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    models
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../forms/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    forms
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    views
+  </span>
+  
+
+      </a>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../urls/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    urls
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../itog/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Выводы
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="_1">Представления</h1>
+<p><strong>Домашняя стрaница с рейсами</strong>
+</br> Все предстоящие рейсы, на которые можно забронировать место
+(фильтруются по дате, которая больше сегодняшней).</p>
+<pre><code>
+def HomeSortView(request):
+    flights = Flight.objects.filter(departure_time__date__gt=datetime.now().date())
+    return render(request, 'home.html', {'object_list': flights})
+
+</code></pre>
+<p><strong>HTML-код для отображения рейсов</strong>
+</br> Рейсы отображаются в виде карточек с указанием направления, время вылета и прилета
+, авиакомпании и модели самолета. Внизу на карточке 2 конопки: 
+"Посмотреть свободные места" - переход на страницу со списком свободных мест, 
+"Пассажиры" - переход на таблицу с пассажирами и их местами.</p>
+<pre><code>
+{% extends 'base.html' %}
+
+{% block content %}
+&lt;h1&gt;Рейсы:&lt;/h1&gt;&lt;/br&gt;
+
+&lt;ul&gt;
+{% for flight in object_list %}
+
+
+    &lt;div class=&quot;card mb-3&quot; style=&quot;max-width: 540px;&quot;&gt;
+      &lt;div class=&quot;row g-0 &quot;&gt;
+          &lt;div class=&quot;card-body&quot;&gt;
+            &lt;h5 class=&quot;card-title&quot;&gt;{{ flight.departure_site }} - {{ flight.landing_site }}&lt;/h5&gt;
+            &lt;p class=&quot;card-text&quot;&gt;{{flight.departure_time }}-{{flight.landing_time}}&lt;/p&gt;
+            &lt;p class=&quot;card-text&quot;&gt;&lt;small class=&quot;text-body-secondary&quot;&gt;Авиакомпания &quot;{{ flight.airline }}&quot; Модель самолета: {{ flight.plane_id.name}}&lt;/small&gt;&lt;/p&gt;
+
+              &lt;a href=&quot;{% url 'seats' flight.pk %}&quot; class=&quot;btn btn-primary&quot;&gt;Посмотреть свободные места&lt;/a&gt;
+              &lt;a href=&quot;{% url 'ticket-table' flight.pk %}&quot; class=&quot;btn btn-outline-primary&quot;&gt;Пассажиры&lt;/a&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+
+
+{% endfor %}
+&lt;/ul&gt;
+{% endblock %}
+
+</code></pre>
+<p><img alt="форма регистрации" src="../screen/home.png" /></p>
+<p><strong>Таблица с забронированными местами</strong>
+</br> Все занятые места, которые фильтруются по выбранному рейсу</p>
+<pre><code>
+def TicketFlightTableView(request, flight_id):
+    tickets = Ticket.objects.filter(flight_id=flight_id)
+    return render(request, 'ticket_table.html', {'tickets': tickets})
+
+</code></pre>
+<p><strong>HTML-код для таблицы</strong></p>
+<pre><code>
+{% extends 'base.html' %}
+
+{% block content %}
+
+{% if tickets.count != 0 %}
+  &lt;p&gt;Всего мест:  {{tickets.first.flight_id.plane_id.seats_number}} Забронировано: {{ tickets.count}}&lt;/p&gt;
+
+  &lt;table class=&quot;table&quot;&gt;
+    &lt;thead&gt;
+      &lt;tr&gt;
+        &lt;th scope=&quot;col&quot;&gt;Имя&lt;/th&gt;
+        &lt;th scope=&quot;col&quot;&gt;Класс&lt;/th&gt;
+        &lt;th scope=&quot;col&quot;&gt;Место&lt;/th&gt;
+        &lt;th scope=&quot;col&quot;&gt;Наличие багажа&lt;/th&gt;
+      &lt;/tr&gt;
+    &lt;/thead&gt;
+    &lt;tbody&gt;
+    {% for ticket in tickets %}
+      &lt;tr&gt;
+        &lt;td&gt;{{ ticket.traveler_id.first_name }} {{ ticket.traveler_id.last_name }}&lt;/td&gt;
+        &lt;td&gt;{{ ticket.seat_id.category }}&lt;/td&gt;
+        &lt;td&gt;{{ ticket.seat_id.name }}&lt;/td&gt;
+        &lt;td&gt;{{ ticket.baggage }}&lt;/td&gt;
+      &lt;/tr&gt;
+    {% endfor %}
+    &lt;/tbody&gt;
+  &lt;/table&gt;
+{% else %}
+&lt;p&gt;На рейс пока никто не зарегистрировался&lt;/p&gt;
+{% endif %}
+&lt;a href=&quot;{% url 'home' %}&quot; class=&quot;btn btn-dark&quot;&gt;К рейсам&lt;/a&gt;
+{% endblock %}
+
+</code></pre>
+<p><img alt="форма регистрации" src="../screen/table.png" /></p>
+<p><strong>Страница рейса с комментариями</strong></p>
+<pre><code>
+class FlightDetailView(DetailView):
+    model = Flight
+    template_name = 'flight_detail.html'
+
+</code></pre>
+<p><strong>HTML-код для страницы рейса</strong>
+</br> Наверху отображаются детали рейса, ниже отзывы и ссылка на форму добавления отзывов.</p>
+<pre><code>
+{% extends 'base.html' %}
+
+{% block content %}
+&lt;h2&gt; {{ flight.departure_site }} - {{ flight.landing_site }} &lt;/h2&gt;
+&lt;h3&gt; {{ flight.departure_time }} - {{ flight.landing_time }} &lt;/h3&gt;
+&lt;p&gt;
+    Авиакомпания &quot;{{ flight.airline }}&quot;  {{ flight.plane_id.name }} &lt;/br&gt;
+&lt;/p&gt;&lt;/br&gt;
+
+
+&lt;br/&gt;
+&lt;hr&gt;
+&lt;h5&gt;ОТЗЫВЫ&lt;/h5&gt;
+&lt;br/&gt;
+{% if not flight.comments.all %}
+    This post doesn't have any comments yet&lt;a href=&quot;{% url 'add-comment' flight.pk %}&quot;&gt;  Add first&lt;/a&gt;
+    &lt;br/&gt;&lt;br/&gt;
+    &lt;hr&gt;
+{% else %}
+    &lt;a href=&quot;{% url 'add-comment' flight.pk %}&quot;&gt;Add comment&lt;/a&gt;
+    &lt;br/&gt;&lt;br/&gt;
+    {% for comment in flight.comments.all %}
+        &lt;strong&gt;{{ comment.author.first_name }}  {{ comment.author.last_name }}&lt;/strong&gt;&lt;br/&gt;
+        &lt;small&gt;Дата добавления: {{ comment.date_added }} &lt;/small&gt;&lt;br/&gt;
+        Оценка: {{ comment.rating }}&lt;/br&gt;
+        &lt;br/&gt;{{ comment.text }}
+        &lt;br/&gt;
+        &lt;hr&gt;
+    {% endfor %}
+{% endif %}
+&lt;br/&gt;&lt;br/&gt;
+
+
+
+&lt;a href=&quot;{% url 'user-page' user.pk %}&quot; class=&quot;btn btn-dark&quot;&gt;Назад&lt;/a&gt;
+
+{% endblock %}
+
+</code></pre>
+<p><img alt="форма регистрации" src="../screen/comments.png" />
+<strong>Личный кабинет</strong>
+</br> Сначала выбираются все билеты конкретного пользователя, затем все рейсы из этих билетов.
+Рейсы делятся на прошедшие и на предстоящие.</p>
+<pre><code>
+def UserWithFlightsView(request, user_id):
+    tickets = Ticket.objects.filter(traveler_id=user_id)
+    tick = []
+    for i in range(len(tickets)):
+        tick.append(tickets[i].flight_id.pk)
+    flights = Flight.objects.filter(pk__in=tick)
+    flights_1 = flights.filter(departure_time__date__gt=datetime.now().date())
+    flights_2 = flights.filter(departure_time__date__lte=datetime.now().date())
+    user = get_object_or_404(Traveler, pk=user_id)
+    return render(request, 'user_page.html', {'tickets': tickets, 'flights_1': flights_1, 'flights_2': flights_2, 'user': user})
+
+</code></pre>
+<p><strong>HTML-код для пользовательской страницы</strong>
+</br> Рейсы отображаются в виде карточек с указанием направления, время вылета и прилета
+, авиакомпании, модели самолета, номера выхода и места. Внизу на карточке 2 вида кнопок: 1)если рейс предстоящий - 2 конопки: 
+"Изменить билет" и "Удалить билет"; 2) если прошедший - "Отзывы", которая ведет на страничку рейса с отзывами.
+Так незарегистрированный пользователь не сможет оставить комментарии, так как у него не будет возможности перейти на страницу.</p>
+<pre><code>
+{% extends 'base.html' %}
+
+{% block content %}
+&lt;h2&gt; {{ user.first_name }} {{ user.last_name }} &lt;/h2&gt;&lt;/br&gt;
+
+&lt;hr&gt;
+&lt;/br&gt;
+&lt;h4&gt; Мои предстоящие рейсы: &lt;/h4&gt;
+{% if flights_1.count != 0 %}
+    {% for f in flights_1 %}
+        &lt;div class=&quot;card mb-3&quot; style=&quot;max-width: 540px;&quot;&gt;
+          &lt;div class=&quot;row g-0 &quot;&gt;
+              &lt;div class=&quot;card-body&quot;&gt;
+                &lt;h5 class=&quot;card-title&quot;&gt;{{ f.departure_site }} - {{ f.landing_site }}&lt;/h5&gt;
+                &lt;p class=&quot;card-text&quot;&gt;{{ f.departure_time }}-{{ f.landing_time}}&lt;/p&gt;
+                &lt;p class=&quot;card-text&quot;&gt;&lt;small class=&quot;text-body-secondary&quot;&gt;Авиакомпания &quot;{{ f.airline }}&quot; Модель самолета: {{ f.plane_id.name}}&lt;/small&gt;&lt;/p&gt;
+                  {% for t in tickets %}
+                  {% if f.pk == t.flight_id.pk %}
+                  &lt;p class=&quot;card-text&quot;&gt;&lt;small class=&quot;text-body-secondary&quot;&gt;Номер выхода: {{ f.gate }} Место: {{ t.seat_id.name }} Класс: {{ t.seat_id.category }}
+                      {% if t.baggage == True %} (с багажом) {% else %} (без багажа) {% endif %}&lt;/small&gt;&lt;/p&gt;
+                      &lt;a href=&quot;{% url 'delete-ticket' user_id=user.pk pk=t.pk %}&quot; class=&quot;btn btn-outline-danger&quot;&gt;Удалить билет&lt;/a&gt;
+                      &lt;a href=&quot;{% url 'update-ticket' user_id=user.pk pk=t.pk %}&quot; class=&quot;btn btn-outline-warning&quot;&gt;Изменить билет&lt;/a&gt;&lt;/br&gt;
+                  {% endif %}
+                  {% endfor %}
+              &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+    {% endfor %}
+    &lt;/br&gt;
+{% else %}
+ &lt;p&gt;У вас нет планируемых путешествий&lt;/p&gt;
+{% endif %}
+
+&lt;h4&gt; Мои прошедшие рейсы: &lt;/h4&gt;
+{% if flights_2.count != 0 %}
+    {% for f in flights_2 %}
+        &lt;div class=&quot;card mb-3&quot; style=&quot;max-width: 540px;&quot;&gt;
+          &lt;div class=&quot;row g-0 &quot;&gt;
+              &lt;div class=&quot;card-body&quot;&gt;
+                &lt;h5 class=&quot;card-title&quot;&gt;{{ f.departure_site }} - {{ f.landing_site }}&lt;/h5&gt;
+                &lt;p class=&quot;card-text&quot;&gt;{{ f.departure_time }}-{{ f.landing_time}}&lt;/p&gt;
+                &lt;p class=&quot;card-text&quot;&gt;&lt;small class=&quot;text-body-secondary&quot;&gt;Авиакомпания &quot;{{ f.airline }}&quot; Модель самолета: {{ f.plane_id.name}}&lt;/small&gt;&lt;/p&gt;
+                &lt;a href=&quot;{% url 'flight-detail' f.pk %}&quot; class=&quot;btn btn-outline-primary&quot;&gt;Отзывы&lt;/a&gt;&lt;/br&gt;
+              &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+    {% endfor %}
+&lt;/br&gt;
+{% else %}
+ &lt;p&gt;Вы пока никуда не летали&lt;/p&gt;
+{% endif %}
+&lt;/br&gt;&lt;hr&gt;&lt;/br&gt;
+&lt;a href=&quot;{% url 'home' %}&quot; class=&quot;btn btn-dark&quot;&gt;На главную&lt;/a&gt;
+
+
+{% endblock %}
+
+</code></pre>
+<p><img alt="форма регистрации" src="../screen/user_page.png" />
+<img alt="форма регистрации" src="../screen/user_page_without_flights.png" /></p>
+<p><strong>Свободные места</strong>
+</br> Выбираются все места на самолете, привязанному к рейсу, 
+затем исключаются все места, которые есть в билетах на этот рейс.</p>
+<pre><code>
+def SeatsView(request, flight_id):
+    flight = get_object_or_404(Flight, pk=flight_id)
+    tickets = Ticket.objects.filter(flight_id=flight_id)
+    tick = []
+    for i in range(len(tickets)):
+        tick.append(tickets[i].seat_id.name)
+    seats = Seat.objects.filter(plane_id=flight.plane_id)
+    seats = seats.exclude(pk__in=tick)
+    user_ticket = tickets.filter(traveler_id=request.user.pk)
+    return render(request, 'seats.html', {'seats': seats, 'flight': flight, 'tickets': user_ticket})
+
+</code></pre>
+<p><strong>HTML-код для страницы с местами</strong>
+</br>Если количество свободных мест == 0, выводится сообщение, если нет - проверяется, авторизирован ли пользователь (нет - только список мест без возможности бронировать),
+потом есть ли у нег билеты: нет - можно бронировать, есть - нельзя.</p>
+<pre><code>
+{% extends 'base.html' %}
+
+{% block content %}
+
+{% if seats.count != 0 %}
+    {% if user.is_authenticated %}
+        {% if tickets.count != 0 %}
+            {% for s in seats %}
+                    &lt;li&gt;{{ s.name }} ({{ s.category }}-класс)&lt;/br&gt;&lt;/br&gt;&lt;/li&gt;
+                {% endfor %}
+            {% else %}
+                {% for s in seats %}
+                    &lt;li&gt;{{ s.name }} ({{ s.category }}-класс)&lt;a href=&quot;{% url 'booking-seat' flight_id=flight.pk seat_id=s.name %}&quot; class=&quot;btn btn-outline-primary btn-sm&quot;&gt;Забронировать место&lt;/a&gt;&lt;/br&gt;&lt;/br&gt;&lt;/li&gt;
+                {% endfor %}
+        {% endif %}
+    {% else %}
+        {% for s in seats %}
+            &lt;li&gt;{{ s.name }} ({{ s.category }}-класс)&lt;/br&gt;&lt;/br&gt;&lt;/li&gt;
+        {% endfor %}
+    {% endif %}
+{% else %}
+&lt;p&gt;Билетов на данный момент нет :( &lt;/br&gt; Попробуйте заглянуть попозже&lt;/p&gt;
+{% endif %}
+&lt;/br&gt;
+&lt;a href=&quot;{% url 'home' %}&quot; class=&quot;btn btn-dark&quot;&gt;К рейсам&lt;/a&gt;
+{% endblock %}
+
+</code></pre>
+<p><img alt="форма регистрации" src="../screen/seats_with_register.png" />
+<img alt="форма регистрации" src="../screen/seats_without_register.png" /></p>
+<p><strong>Изменение бронирования</strong>
+</br>Изменить можно только наличие/отсутствие багажа </p>
+<pre><code>
+class TicketUpdateView(UpdateView):
+    model = Ticket
+    template_name = 'update_booking.html'
+    form_class = TicketForm
+
+    def get_success_url(self):
+        return reverse('user-page', kwargs={'user_id': self.request.user.pk})
+
+    def form_valid(self, form):
+        form.instance.traveler_id = self.request.user
+        form.instance.flight_id = Flight.objects.get(pk=Ticket.objects.get(pk=self.kwargs['pk']).flight_id.pk)
+        form.instance.seat_id = Seat.objects.get(pk=Ticket.objects.get(pk=self.kwargs['pk']).seat_id.pk)
+        return super().form_valid(form)
+
+</code></pre>
+<p><strong>HTML-код для страницы с местами</strong></p>
+<pre><code>
+{% extends 'base.html' %}
+
+{% block content %}
+
+&lt;h1&gt;Изменить билет&lt;/h1&gt;&lt;/br&gt;
+&lt;form method=&quot;post&quot;&gt;
+    {% csrf_token %}
+    {{ form.as_p }}
+    &lt;br/&gt;&lt;button type=&quot;submit&quot; class=&quot;btn btn-warning&quot;&gt;Изменить&lt;/button&gt;
+&lt;/form&gt;
+&lt;br/&gt;&lt;a href=&quot;{% url 'user-page' user.pk %}&quot; class=&quot;btn btn-dark&quot;&gt;Назад в личный кабинет&lt;/a&gt;
+
+{% endblock %}
+
+</code></pre>
+<p><img alt="форма регистрации" src="../screen/update_ticket.png" /></p>
+<p><strong>Удаление бронирования</strong></p>
+<pre><code>
+class TicketDeleteView(DeleteView):
+    model = Ticket
+    template_name = 'delete_booking.html'
+
+    def get_success_url(self):
+        return reverse('user-page', kwargs={'user_id': self.request.user.pk})
+
+</code></pre>
+<p><strong>HTML-код для удаления</strong>
+</br>Подтвержение удаления места</p>
+<pre><code>
+{% extends 'base.html' %}
+
+{% block content %}
+
+&lt;h1&gt;Удалить билет&lt;/h1&gt;&lt;br/&gt;
+&lt;p&gt;Вы уверены, что хотите удалить билет?&lt;/p&gt;
+&lt;form method=&quot;post&quot;&gt;
+    {% csrf_token %}
+    &lt;br/&gt;&lt;button type=&quot;submit&quot; class=&quot;btn btn-danger&quot;&gt;Удалить&lt;/button&gt;
+&lt;/form&gt;
+&lt;br/&gt;&lt;a href=&quot;{% url 'user-page' user.pk %}&quot; class=&quot;btn btn-dark&quot;&gt;Назад в личный кабинет&lt;/a&gt;
+
+{% endblock %}
+
+</code></pre>
+<p><img alt="форма регистрации" src="../screen/delete_ticket.png" /></p>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.a264c092.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.726fbb30.min.js"></script>
+      
+    
+  </body>
+</html>
